@@ -1,0 +1,14 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1684" measuredH="511" mockupW="1461" mockupH="432">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SiteMap" x="223" y="81" w="-1" h="-1" measuredW="820" measuredH="430" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enter%0A-%20Signup%0A-%20Login%0A--%20Welcome%0A--%20Feed%0A---%20Detail%0A--%20Interactions%0A--%20Grid%20View%0A---%20Detail%0A--%20Settings%0A--%20My%20Account</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::StickyNote" x="1266" y="79" w="418" h="399" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Welcome%20-%20Sliding%0AFeed%20-%20Search%20functionality%0ADetail%20-%20Social%20Share%0AExplore%20-%20Grid%20View%0ASettings%20-%20%0A%20-%20Logout%0A%20-%20About%0A%20-%20Version%20%0AMy%20Account%0A-%20Add%20photo%0A-%20Custom%20Dialogs%0A-%20Advertising%0A-%20Swipe%20to%20delete%0A-%20tap%20to%20mark%20for%20deletion%20%28Gmail%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

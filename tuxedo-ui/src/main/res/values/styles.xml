@@ -1,5 +1,18 @@
 <resources>
 
+    <style name="CustomTextViewStyle">
+        <item name="font">@string/font_kaushan</item>
+    </style>
+    <style name="CircularImageViewStyle">
+        <item name="circular_image_border">true</item>
+        <item name="circular_image_border_color">#EEEEEE</item>
+        <item name="circular_image_border_width">3dp</item>
+        <item name="circular_image_shadow">true</item>
+    </style>
+    <style name="CustomButton">
+
+    </style>
+
     <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowBackground">@null</item>

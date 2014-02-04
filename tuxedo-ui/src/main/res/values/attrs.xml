@@ -1,12 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <attr name="button_type">
+        <enum name="primary"    value="1" />
+        <enum name="success"    value="2" />
+        <enum name="info"       value="3" />
+        <enum name="warning"    value="4" />
+        <enum name="danger"     value="5" />
+    </attr>
+
+    <attr name="button_size">
+        <enum name="large"  value="1" />
+        <enum name="small"  value="2" />
+        <enum name="xsmall" value="3" />
+    </attr>
+
+    <declare-styleable name="Tuxedo">
+        <attr name="font" format="string" />
+        <attr name="border_color" format="string" />
+        <attr name="circular_image_border" format="boolean" />
+        <attr name="circular_image_border_width" format="dimension" />
+        <attr name="circular_image_border_color" format="color" />
+        <attr name="circular_image_shadow" format="boolean" />
+        <attr name="bb_type" format="string"/>
+        <attr name="bb_icon_left" format="string"/>
+        <attr name="bb_icon_right" format="string"/>
+        <attr name="bb_roundedCorners" format="boolean"/>
+        <attr name="bb_text_alignment" format="string"/>
+        <attr name="bb_size" format="string"/>
+        <attr name="url" format="string" />
+        <attr name="button_type" />
+        <attr name="button_rounded" format="boolean" />
+        <attr name="button_size" />
+    </declare-styleable>
+
+    <!-- //TODO: remove this to not cause confusion -->
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference"></attr>
+    </declare-styleable>
+
     <!-- Declare custom theme attributes that allow changing which styles are
-         used for button bars depending on the API level.
-         ?android:attr/buttonBarStyle is new as of API 11 so this is
-         necessary to support previous API levels. -->
+     used for button bars depending on the API level.
+     ?android:attr/buttonBarStyle is new as of API 11 so this is
+     necessary to support previous API levels. -->
     <declare-styleable name="ButtonBarContainerTheme">
         <attr name="metaButtonBarStyle" format="reference" />
         <attr name="metaButtonBarButtonStyle" format="reference" />
     </declare-styleable>
+
 
 </resources>

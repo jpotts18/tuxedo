@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+
+    Android Style Typography:
+    http://developer.android.com/design/style/typography.html
+
+    Contrast in type sizes can go a long way to create ordered, understandable layouts.
+    However, too many different sizes in the same UI can be messy.
+
+    -->
+
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="rounded_corners">5dp</dimen>
+    <dimen name="button_rounded_corner_radius">5dp</dimen>
+    <dimen name="button_padding_xsmall">5dp</dimen>
+    <dimen name="button_padding_small">10dp</dimen>
+    <dimen name="button_padding_medium">12dp</dimen>
+    <dimen name="button_padding_large">15dp</dimen>
+
+</resources>
